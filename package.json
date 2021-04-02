@@ -1,0 +1,28 @@
+{
+  "name": "videogenerator",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "@ffprobe-installer/ffprobe": "^1.1.0",
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "*",
+    "express": "~4.16.1",
+    "ffprobe": "^1.1.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "sharp": "^0.28.0",
+    "text-to-image": "^2.4.4",
+    "videoshow": "^0.1.12"
+  }
+}
